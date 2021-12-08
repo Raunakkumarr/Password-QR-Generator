@@ -14,7 +14,7 @@ def image_qr(password):
     filename=input('Name Password: ')
     img=qrcode.make(password)
     img.save(filename+'.png')
-    print(f'Your Password is "{password}"')
+    #print(f'Your Password is "{password}"')
     print(f"The password was saved as {filename}.png in the current working directory.")
 
 def run():
